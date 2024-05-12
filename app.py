@@ -50,7 +50,7 @@ clusters = kmeans.labels_
 data['cluster'] = clusters
 
 # Streamlit app
-st.title('News Clustering App')
+st.title('News Clustering App ||R204454G HAI Tungamiraishe Mukwena')
 
 # Display clusters
 selected_cluster = st.selectbox('Select a cluster', sorted(set(clusters)))
