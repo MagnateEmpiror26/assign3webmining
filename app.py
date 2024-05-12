@@ -12,7 +12,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load the dataset
-data = pd.read_csv(r"C:\Users\LENOVO\Documents\Web Mining\scrapy\news_data.csv")
+data = pd.read_csv("news_data.csv")
 
 # Text preprocessing
 # Combine title and text columns
